@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-=======
->>>>>>> a4a6311e26fba6db07a34040855da9a4274100ec
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="output" path="bin/classes"/>
-=======
-	<classpathentry kind="output" path="bin"/>
->>>>>>> parent of a4a6311... Added Layouts, etc.
 </classpath>
