@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/heatherprice/tapia2014/.metadata/.plugins/org.eclipse.jdt.core
+1797150812.index
+2400539465.index
+510650617.index
