@@ -854,3 +854,13 @@ Caused by: java.lang.ClassNotFoundException: the
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
 	... 26 more
+!SESSION 2014-02-08 15:16:49.949 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/heatherprice/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/heatherprice/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-08 15:18:11.605
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
