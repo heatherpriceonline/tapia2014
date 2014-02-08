@@ -26,68 +26,78 @@
                 android:layout_height="wrap_content" >
             </TabWidget>
 
-            <FrameLayout
+           <FrameLayout
                 android:id="@android:id/tabcontent"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
 
-                <RaletiveLayout
-                    android:id="@+id/Today"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="bottom"
-                    android:orientation="vertical" >
+           		<RelativeLayout
+           		    android:id="@+id/Today"
+           		    android:layout_width="match_parent"
+           		    android:layout_height="match_parent" >
 
-                    <EditText
-                        android:id="@+id/todoText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ems="10" 
-                        android:hint="@string/todoText">
+           		    <LinearLayout
+           		        android:id="@+id/linearLayout1"
+           		        android:layout_width="match_parent"
+           		        android:layout_height="wrap_content"
+           		        android:layout_alignParentBottom="true"
+           		        android:layout_alignParentLeft="true" >
 
-                        <requestFocus />
-                    </EditText>
+           		        <Button
+           		            android:id="@+id/todayButton"
+           		            style="?android:attr/buttonStyleSmall"
+           		            android:layout_width="wrap_content"
+           		            android:layout_height="wrap_content"
+           		            android:text="@string/today" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" >
+           		        <Button
+           		            android:id="@+id/tomorrowButton"
+           		            style="?android:attr/buttonStyleSmall"
+           		            android:layout_width="wrap_content"
+           		            android:layout_height="wrap_content"
+           		            android:text="@string/tomorrow" />
 
-                        <Button
-                            android:id="@+id/todayButton"
-                            style="?android:attr/buttonStyleSmall"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/today" />
+           		        <Button
+           		            android:id="@+id/futureButton"
+           		            style="?android:attr/buttonStyleSmall"
+           		            android:layout_width="wrap_content"
+           		            android:layout_height="wrap_content"
+           		            android:text="@string/future" />
+           		    </LinearLayout>
 
-                        <Button
-                            android:id="@+id/tomorrowButton"
-                            style="?android:attr/buttonStyleSmall"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/tomorrow" />
+           		    <EditText
+           		        android:id="@+id/todoText"
+           		        android:layout_width="match_parent"
+           		        android:layout_height="wrap_content"
+           		        android:layout_above="@+id/linearLayout1"
+           		        android:layout_alignParentLeft="true"
+           		        android:ems="10"
+           		        android:hint="@string/todoText" />
 
-                        <Button
-                            android:id="@+id/futureButton"
-                            style="?android:attr/buttonStyleSmall"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/future" />
+           		    <TextView
+           		        android:id="@+id/textView"
+           		        android:layout_width="wrap_content"
+           		        android:layout_height="wrap_content"
+           		        android:layout_alignParentLeft="true"
+           		        android:layout_alignParentTop="true"
+           		        android:layout_marginTop="15dp"
+           		        android:text=""
+           		        android:textAppearance="?android:attr/textAppearanceMedium" 
+           		        />
 
-                    </LinearLayout>
+           		</RelativeLayout>
 
-                </RaletiveLayout>
-
-                <FragmentLayout
+                <LinearLayout
                     android:id="@+id/Tomorrow"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
-                </RaletiveLayout>
+                </LinearLayout>
 
-                <RaletiveLayout
+                <LinearLayout
                     android:id="@+id/Later"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
-                </RaletiveLayout>
+                </LinearLayout>
             </FrameLayout>
         </LinearLayout>
     </TabHost>
