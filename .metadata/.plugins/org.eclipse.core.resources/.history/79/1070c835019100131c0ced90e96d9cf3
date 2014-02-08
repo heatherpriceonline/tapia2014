@@ -31,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
 
-                <RaletiveLayout
+                <LinearLayout
                     android:id="@+id/Today"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -75,19 +75,19 @@
 
                     </LinearLayout>
 
-                </RaletiveLayout>
+                </LinearLayout>
 
-                <FragmentLayout
+                <LinearLayout
                     android:id="@+id/Tomorrow"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
-                </RaletiveLayout>
+                </LinearLayout>
 
-                <RaletiveLayout
+                <LinearLayout
                     android:id="@+id/Later"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
-                </RaletiveLayout>
+                </LinearLayout>
             </FrameLayout>
         </LinearLayout>
     </TabHost>
